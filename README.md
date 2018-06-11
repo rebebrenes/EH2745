@@ -1,6 +1,6 @@
 # EH2745
 
-Assignment II - EH2745 Computer Applications in Power Systems
+Assignment II - EH2745 Computer Applications in Power Systems,
 Rebeca Brenes & Nick van Dunné
 
 <>>>>>> FILES SUMMARY >>>>>> 
