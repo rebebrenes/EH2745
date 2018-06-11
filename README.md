@@ -8,16 +8,16 @@ Rebeca Brenes & Nick van Dunné
 *** Main File: clusteringAlgorithms.java
 
 *** Auxiliary Files
-CSV.java - This file contains methods that are used to print the information of clusters, centroids and samples into a CSV file.
-DistanceComparator.java - This contains a method that is used to sort distances from smallest distance to largest.
-SortData - Contains a method that calls the SQLdata class and obtains the information, as well as gives it a good format for later use.
-SQLdata -
+- CSV.java: This file contains methods that are used to print the information of clusters, centroids and samples into a CSV file.
+- DistanceComparator.java: This contains a method that is used to sort distances from smallest distance to largest.
+- SortData: Contains a method that calls the SQLdata class and obtains the information, as well as gives it a good format for later use.
+- SQLdata: Contains the communication with MySQL and extracts the data from the desired tables.
 
 *** Format Files
-distclData.java - Mainly used as a constructor in order to use List<distclData>, with a format of (double distance, String cluster).
-Measurements.java - Mainly used as a constructor in order to use List<Measurements> with the format(String rdfid, String name, double time, double value, String sub_rdfid).
-SampleData.java - Mainly used as a constructor in order to use List<SampleData> with the format(voltage1, angle1, ..., voltageN, angleN).
-StateData.java - Similar to SampleData, but includes the cluster number and state in the structure.
+- distclData.java: Mainly used as a constructor in order to use List<distclData>, with a format of (double distance, String cluster).
+- Measurements.java: Mainly used as a constructor in order to use List<Measurements> with the format(String rdfid, String name, double time, double value, String sub_rdfid).
+- SampleData.java: Mainly used as a constructor in order to use List<SampleData> with the format(voltage1, angle1, ..., voltageN, angleN).
+- StateData.java: Similar to SampleData, but includes the cluster number and state in the structure.
 
 <>>>>>> HOW TO RUN? >>>>>> 
 1. Open SQLdata and change MySQL credentials.
